@@ -1,0 +1,24 @@
+{
+  "name": "react-ui",
+  "version": "0.0.1",
+  "description": "Ensemble de composant reactjs",
+  "main": "react-ui-dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:d": "webpack --env mode=dev",
+    "build": "webpack --env mode=production"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "ux"
+  ],
+  "author": "Fabien Sanchez <fzed51+git@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/webpack": "^5.28.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
