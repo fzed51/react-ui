@@ -39,8 +39,18 @@ const config = {
     ],
   },
   externals: {
-    react: "React",
-    "react-dom": "ReactDOM",
+    react: {
+      commonjs2: "react",
+      commonjs: "react",
+      amd: "react",
+      root: "React",
+    },
+    "react-dom": {
+      commonjs2: "react-dom",
+      commonjs: "react-dom",
+      amd: "react-dom",
+      root: "ReactDOM",
+    },
   },
 };
 

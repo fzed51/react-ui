@@ -32,7 +32,7 @@
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
   },
-  "dependencies": {
+  "peerDependency": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
