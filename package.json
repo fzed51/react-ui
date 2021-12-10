@@ -13,7 +13,7 @@
     "publish:pat": "npm version patch && npm publish",
     "publish:min": "npm version minor && npm publish",
     "publish:maj": "npm version major && npm publish",
-    "postpublish": "git push"
+    "postpublish": "git push && git push --tags"
   },
   "keywords": [
     "react",
