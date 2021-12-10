@@ -8,7 +8,7 @@
     "build:d": "webpack --env mode=dev",
     "build": "webpack --env mode=production",
     "prepublish": "npm run build",
-    "publish": "npm version patch && npm publish",
+    "publish:pat": "npm version patch && npm publish",
     "publish:min": "npm version minor && npm publish",
     "publish:maj": "npm version major && npm publish"
   },
