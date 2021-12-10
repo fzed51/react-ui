@@ -1,6 +1,6 @@
 {
   "name": "@fzed51/react-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ensemble de composant reactjs",
   "main": "react-ui-dist/index.js",
   "scripts": {
