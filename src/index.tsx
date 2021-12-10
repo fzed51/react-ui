@@ -11,5 +11,11 @@ const Button: FC<ButtonProps> = ({ onClick, children }) => {
       onClick(e);
     }
   };
-  return <button className="ui-btn">{children}</button>;
+  return (
+    <button className="ui-btn" onClick={handleClick}>
+      {children}
+    </button>
+  );
 };
+
+export default Button;
