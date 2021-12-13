@@ -1,0 +1,13 @@
+.ui-btn {
+  $size: 1em;
+  appearance: none;
+  margin: 0;
+  padding: calc($size / 2) $size;
+  line-height: $size;
+  font-size: $size;
+  border-radius: calc($size / 4);
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  outline: none;
+}

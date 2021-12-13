@@ -1,4 +1,5 @@
 import React, { FC, MouseEvent } from "react";
+import "./style.scss";
 
 export interface ButtonProps {
   onClick?: (e: MouseEvent) => void;

@@ -22,6 +22,7 @@ const config = {
         use: {
           loader: "babel-loader",
           options: {
+            sourceMap: true,
             presets: [
               ["@babel/preset-env", { modules: false }],
               "@babel/preset-react",
@@ -35,6 +36,25 @@ const config = {
             ],
           },
         },
+      },
+      {
+        test: /\.s?css$/i,
+        use: [
+          { loader: "style-loader" },
+          {
+            loader: "css-loader",
+            options: {
+              sourceMap: true,
+            },
+          },
+          {
+            loader: "sass-loader",
+            options: {
+              implementation: require("sass"),
+              sourceMap: true,
+            },
+          },
+        ],
       },
     ],
   },
