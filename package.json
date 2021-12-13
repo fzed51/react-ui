@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:d": "webpack --env mode=dev",
     "build": "webpack --env mode=production",
-    "postbuild": "npm run -declaration",
+    "postbuild": "npm run _declaration",
     "prepublish": "npm run build",
     "publish:pat": "npm version patch && npm publish",
     "publish:min": "npm version minor && npm publish",
