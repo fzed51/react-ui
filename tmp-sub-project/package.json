@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fzed51/react-ui": "^0.0.9",
+    "@fzed51/react-ui": "^0.0.10",
     "@fzed51/webpack-config": "^3.1.1"
   }
 }
