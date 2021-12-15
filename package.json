@@ -6,7 +6,7 @@
   "scripts": {
     "_declaration": "tsc -d --emitDeclarationOnly --jsx react-jsx --outDir ./react-ui-dist/ --strict",
     "_build": "npm run build && npm run _declaration",
-    "_publish": "npm run _build &&  && npm publish && git push && git push --tags",
+    "_publish": "npm run _build && npm publish && git push && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:d": "webpack --env mode=dev",
     "build": "webpack --env mode=production",
