@@ -5,18 +5,25 @@ export interface ButtonProps {
   onClick?: (e: MouseEvent) => void;
 }
 
-const Button: FC<ButtonProps> = ({ onClick, children }) => {
+export const ButtonCore: FC<ButtonProps> = ({
+  onClick,
+  children,
+  ...props
+}) => {
   const handleClick = (e: MouseEvent) => {
+    console.log("click");
+    console.debug(onClick);
     if (onClick !== undefined) {
+      console.log("click avaec props");
       e.preventDefault();
       onClick(e);
     }
   };
   return (
-    <button className="ui-btn" onClick={handleClick}>
+    <button type="button" className="ui-btn" onClick={handleClick} {...props}>
       {children}
     </button>
   );
 };
 
-export default Button;
+export default ButtonCore;

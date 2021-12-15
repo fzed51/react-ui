@@ -1,6 +1,6 @@
 .ui-btn {
   $size: 1em;
-  appearance: none;
+  // appearance: none;
   margin: 0;
   padding: calc($size / 2) $size;
   line-height: $size;
@@ -10,4 +10,5 @@
   color: #fff;
   border: none;
   outline: none;
+  cursor: pointer;
 }
