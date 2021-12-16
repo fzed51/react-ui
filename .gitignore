@@ -70,3 +70,6 @@ desktop.ini
 #  / _` / -_) ' \/ -_) '_/ _` | |
 #  \__, \___|_||_\___|_| \__,_|_|
 #  |___/
+# Local Netlify folder
+.netlify/
+storybook-static/
