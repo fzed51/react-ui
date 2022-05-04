@@ -1,7 +1,7 @@
 import React, { FC, MouseEvent, SyntheticEvent, useCallback } from "react";
 
 export interface BasicButtonProps {
-  onClick?: (e: SyntheticEvent) => void;
+  onClick?: (e: MouseEvent) => void;
   submitter?: boolean;
 }
 
@@ -19,7 +19,11 @@ export const BasicButton: FC<BasicButtonProps> = ({
     },
     [onClick, submitter]
   );
-  return <button>{children}</button>;
+  return (
+    <button onClick={handleClick} type={submitter ? "submit" : "button"}>
+      {children}
+    </button>
+  );
 };
 
 export default BasicButton;

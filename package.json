@@ -36,6 +36,7 @@
     "@storybook/addon-links": "^6.4.9",
     "@storybook/builder-webpack5": "^6.4.9",
     "@storybook/manager-webpack5": "^6.4.9",
+    "@types/color": "^3.0.3",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "@types/webpack": "^5.28.0",
@@ -50,6 +51,7 @@
     "webpack-cli": "^4.9.1"
   },
   "dependencies": {
+    "color": "^4.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
