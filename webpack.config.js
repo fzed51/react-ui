@@ -5,7 +5,7 @@ const path = require("path");
  */
 const config = {
   output: {
-    path: path.resolve(__dirname, "react-ui-dist"),
+    path: path.resolve(__dirname, "dist"),
     filename: "index.js",
     library: "react-ui", // Important
     libraryTarget: "umd", // Important

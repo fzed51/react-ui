@@ -2,9 +2,9 @@
   "name": "@fzed51/react-ui",
   "version": "0.1.1",
   "description": "Ensemble de composant reactjs",
-  "main": "./react-ui-dist/index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "_declaration": "tsc -d --emitDeclarationOnly --jsx react-jsx --outDir ./react-ui-dist/ --strict",
+    "_declaration": "tsc -d --emitDeclarationOnly --jsx react-jsx --outDir ./dist/ --strict",
     "_build": "npm run build && npm run _declaration",
     "_publish": "npm run _build && npm publish && git push && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1",
