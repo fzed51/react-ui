@@ -72,4 +72,5 @@ desktop.ini
 #  |___/
 # Local Netlify folder
 .netlify/
-storybook-static/
+/storybook-static/
+/yarn-error.log
